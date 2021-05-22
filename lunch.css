@@ -1,0 +1,223 @@
+ *{
+    padding: 0;
+    margin: 0;
+  }
+ .sidebar{
+   position: absolute;
+    width: 250px;
+    height: 800px;;
+    margin-bottom: 50px;
+ }
+ .sidebar p {
+    font-size: 45px;
+    line-height: 60px;
+    text-align: center;
+    font-family: serif;
+  }
+  .checkbtn{
+    display: none;
+  }
+  .sidebar ul a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    line-height: 80px;
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+    padding-left: 40px;  
+  }
+  .checkbtn1{
+    display: none;
+  }
+  .sidebar button{
+    height: 50px;
+    width: 120px;
+    margin-top: 20px;
+    margin-left: 40px;
+    border-radius: 30px;
+    background-color: red;
+    outline: none;
+    border: none;
+    color: white;
+    font-size: 15px;
+  }
+  .heading{
+    height: 300px;
+    width: 1000px;
+    margin-left: 300px;
+    margin-top:60px;
+    position:absolute;
+  }
+  .heading header{
+    font-size: 80px;
+    position: absolute;
+    margin-left: 150px;
+    margin-top: 50px;
+    font-family: serif ;
+  }
+  .pg{
+    height: 300px;
+    width: 300px;
+    margin-left: 1200px;
+    margin-top:60px;
+    position: absolute;
+  }
+  .pg p{
+   margin-top: 60px;
+   line-height: 25px;
+  }
+  .pg hr{
+    margin-top: 20px;
+    width: 80px;
+    height: 1px;
+  }
+  .image{
+    height: 300px;
+    width: 1600px;
+    position: absolute;
+    margin-left: 300px;
+    margin-top:380px ;
+  }
+  .image1{
+    width: 220px;
+    height: 270px;
+    margin: 9px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+  box-shadow: -5px -5px 10px rgba(7, 7, 7, 0.24),5px 5px 10px rgba(14, 13, 13, 0.521), 5px 5px 10px rgba(0, 0, 0, 0.014);
+  }
+  .image2{
+    width: 220px;
+    height: 270px;
+    margin: 9px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+  box-shadow: -5px -5px 10px rgba(7, 7, 7, 0.24),5px 5px 10px rgba(14, 13, 13, 0.521), 5px 5px 10px rgba(0, 0, 0, 0.014);
+  }
+  .image3{
+    width: 220px;
+    height: 270px;
+    margin: 9px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+  box-shadow: -5px -5px 10px rgba(7, 7, 7, 0.24),5px 5px 10px rgba(14, 13, 13, 0.521), 5px 5px 10px rgba(0, 0, 0, 0.014) ;
+  }
+  .image4{
+    width: 220px;
+    height: 270px;
+    margin: 9px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+  box-shadow: -5px -5px 10px rgba(7, 7, 7, 0.24),5px 5px 10px rgba(14, 13, 13, 0.521), 5px 5px 10px rgba(0, 0, 0, 0.014);
+  }
+  .image5{
+    width: 220px;
+    height: 270px;
+    margin: 9px;
+    border-radius: 20px;
+    background-color: white;
+    border: none;
+    outline: none;
+  box-shadow: -5px -5px 10px rgba(7, 7, 7, 0.24),5px 5px 10px rgba(14, 13, 13, 0.521), 5px 5px 10px rgba(0, 0, 0, 0.014);
+  }
+  .lunch img{
+    height: 150px;
+    width: 150px;
+    border-radius: 80px;
+    margin-top: -40px;
+    margin-left: 20px;
+  }
+  .lunch p{
+    position: absolute;
+    margin-top: 30px;
+    margin-left: 70px;
+  }
+
+  /*........Mobile Design........*/
+  @media (max-width:768px){
+     
+    .sidebar{
+      position: relative;
+      width: 300px;
+      height: 100px;
+    } 
+    .sidebar p{
+      position: absolute;
+      margin-left: 400px;
+      margin-top: -20px;
+    }
+    .sidebar ul a{
+     display: none;
+     position: absolute;
+    }
+    .checkbtn{
+      display: block;
+      color: red;
+      font-size: 40px;
+      margin-top: 60px;
+      margin-left: 80px;
+    }
+    .sidebar button{
+      position: absolute;
+      margin-left: 360px;
+      margin-top: -150px;
+      display: none;
+    }
+    .checkbtn1{
+      display: block;
+      color: red;
+      margin-left: 800px;
+      font-size: 40px;
+      margin-top: -150px;
+    }
+    
+      .image{
+    height: 200px;
+    width: 1000px;
+    position: absolute;
+    margin-left: 60px;
+    margin-top:380px ;
+  }
+
+    .image1,.image2,.image3,.image4{
+     height:350px;
+     Width:320px;
+}
+.image5{
+  display: none;
+}
+    
+     .heading{
+    height: 300px;
+    width: 1000px;
+    margin-left: 30px;
+    margin-top:30px;
+    position:absolute;
+  }
+  .heading header{
+    font-size: 80px;
+    position: absolute;
+    margin-left: 40px;
+    margin-top: 50px;
+    font-family: serif ;
+  }
+    .pg p{
+      margin-top: 1070px;
+      margin-left: -1100px;
+     }
+     .pg hr{
+      margin-left: -1100px;
+     }
+  }
+  
+
+  
